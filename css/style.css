@@ -1,0 +1,119 @@
+.part{
+background-image:linear-gradient(#e74548c6,#801C1F),  url(../img/events-heavenly-header.jpg  );
+background-position: center center;
+background-size: cover;
+width: 100%;
+height: 100vh;
+background-color: #C85459;
+
+color: #fff;
+}
+.fontbar{
+  transform: translateX(-5%);
+    font-size: xx-large;
+margin-left: 30vh;
+}
+.singer{
+    margin: 100px 0 ;
+    width: 50%;
+    cursor: pointer;
+}
+.head1{
+    background-color: #E68285;
+    color: #fff;
+}
+ .singer  p{
+    background-color: #C8C8C8;
+    display: none;
+}
+
+.home span{  font-size: x-large;
+    
+
+}
+.capspan{
+    color: #fff;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    height: 100vh;
+  width: 200px;
+    font-size: x-large;  
+    background-color: #000;
+    
+z-index: 99999;
+}
+.bar{
+    display: none;
+    
+}
+.bar a{
+    text-decoration: none;
+    color: #fff;
+}
+#sp3:hover{
+    color: #801C1F;
+}#sp4:hover{
+    color: #801C1F;
+}#sp5:hover{
+    color: #801C1F;
+}
+#ss:hover{
+    color: #801C1F;
+}
+#sp2:hover{
+    color: #801C1F;
+}
+
+.capspan span{
+
+    padding-left:10px ;
+    display: block;
+    /* width: 30px; */
+    height: 60px;
+    
+}#m{
+    width: 50%
+}
+.photo{
+    background-image:linear-gradient(#902e33e0,rgba(255, 0, 0, 0.564)) ,url(../img/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    color: #fff;
+margin: 100px 0 ;
+}
+
+.border-div{
+    border: solid 2px #fff;
+margin:5% 5px  ;
+box-sizing: border-box;
+
+
+
+}
+.border-div span{
+    
+    display: flex;
+justify-content: center;
+align-items: center;
+    height:100px;
+    margin-top: 10%;
+    /* transform: translateY(-10%); */
+}
+.fontfooter{
+    font-size: large;
+
+}
+.fontnum{
+    font-size: x-large;
+}
+@media screen and (max-width: 576px) {
+    .part{
+        height: 50vh;
+    }
+    .capspan{
+        width:120px ;
+    }
+   
+}
